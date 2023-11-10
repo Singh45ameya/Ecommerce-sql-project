@@ -20,3 +20,19 @@ Here is a small sample of the dataset for reference:
 - `sql_scripts/`: This directory contains SQL scripts for creating tables and queries.
 - `data/`: Holds sample data used in the project.
 - `README.md`: Provides an overview of the project.
+
+'''
+*SQL Queries:*
+
+1. Example Query 1:
+   ```sql
+   -- Your SQL query goes here
+   SELECT ProductID, ProductName, Price
+   FROM Products
+   WHERE Category = 'Electronics';
+
+   -- Another SQL query
+SELECT SaleDate, SUM(QuantitySold) AS TotalSold
+FROM Sales
+GROUP BY SaleDate;
+'''
