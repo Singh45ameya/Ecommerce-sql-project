@@ -26,11 +26,20 @@ Here is a small sample of the dataset for reference:
 
 1. Example Query 1:
    ```sql
-   -- Your SQL query goes here
+   -- SQL query goes here
    SELECT ProductID, ProductName, Price
    FROM Products
    WHERE Category = 'Electronics';
 
+*SQL Queries:*
+
+1. Example Query 1:
+   ```sql
+   -- Retrieve information about electronics products
+   SELECT ProductID, ProductName, Price
+   FROM Products
+   WHERE Category = 'Electronics';
+   
    -- Another SQL query
 SELECT SaleDate, SUM(QuantitySold) AS TotalSold
 FROM Sales
