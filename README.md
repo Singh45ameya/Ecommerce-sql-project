@@ -45,3 +45,5 @@ SELECT SaleDate, SUM(QuantitySold) AS TotalSold
 FROM Sales
 GROUP BY SaleDate;
 '''
+### SQL Code
+To view the SQL code for this project, please check the [sql_code.sql](sql_code.sql) file.
