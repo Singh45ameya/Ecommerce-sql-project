@@ -15,3 +15,8 @@ Here is a small sample of the dataset for reference:
 | 1         | T-Shirt     | Clothing    | 19.99 | 100                 | 101        |
 | 2         | Mobile Phone| Electronics | 299.99| 50                  | 102        |
 | 3         | Book        | Education   | 12.50 | 75                  | 103        |
+
+*Project Structure:*
+- `sql_scripts/`: This directory contains SQL scripts for creating tables and queries.
+- `data/`: Holds sample data used in the project.
+- `README.md`: Provides an overview of the project.
